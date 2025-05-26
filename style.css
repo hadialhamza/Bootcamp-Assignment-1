@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Shared Style */
@@ -37,6 +38,10 @@
   font-size: 16px;
   font-weight: 400;
   color: #0d13218f;
+}
+.anchor-default {
+  text-decoration: none;
+  color: black;
 }
 
 /* Body style */
@@ -86,6 +91,7 @@ body {
   font-size: 48px;
   font-weight: 800;
   color: #0d1321;
+  text-align: center;
 }
 
 .hero-container p {
@@ -189,8 +195,23 @@ body {
 .card h2 {
   margin-bottom: 24px;
 }
-.card a{
-    font-size: 16px;
-    font-weight: 700;
-    color: black;
+.card a {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+/* Footer section style */
+footer {
+  background-color: #ffffff99;
+}
+.footer-container {
+  padding: 32px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container a {
+  margin-left: 24px;
+  text-decoration: none;
 }
