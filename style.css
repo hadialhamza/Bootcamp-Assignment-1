@@ -160,3 +160,37 @@ body {
   height: 620px;
   border-radius: 16px;
 }
+
+/* My Target section style */
+.target-container {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 84px;
+}
+.card {
+  width: 100%;
+  padding: 40px;
+  background: linear-gradient(#e6edf9, #9de5ff);
+  border-radius: 16px;
+  box-shadow: 0 4px 40px 0 #0000005b;
+  text-align: left;
+  margin-top: 48px;
+  transition: transform 0.3s ease;
+}
+.card img {
+  margin-bottom: 24px;
+}
+
+.card h2 {
+  margin-bottom: 24px;
+}
+.card a{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
