@@ -10,6 +10,7 @@
 .container {
   max-width: 1440px;
   margin: auto;
+  width: 95%;
 }
 .btn {
   font-size: 20px;
@@ -23,6 +24,16 @@
 }
 .btn:hover {
   background: linear-gradient(#ffd447, #ff5100);
+}
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0d13218f;
 }
 
 /* Body style */
@@ -80,4 +91,46 @@ body {
   color: #0d13218f;
   width: 60%;
   text-align: center;
+}
+
+/* Why development style */
+.why-development {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.development {
+  width: 60%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.development-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px;
+  background-color: #e6edf9;
+  border-radius: 16px;
+  width: 100%;
+}
+.development-content {
+  width: 70%;
+}
+.development-content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0d1321be;
+  margin-bottom: 16px;
+}
+.development-content p {
+  margin-bottom: 32px;
+}
+.development-image {
+  width: 35%;
+}
+.development-image img {
+  width: 100%;
+  object-fit: cover;
 }
