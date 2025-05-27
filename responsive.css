@@ -16,22 +16,77 @@
   .development {
     width: 80%;
   }
-  .inspiration-video{
+  .inspiration-video {
     width: 85%;
   }
-  .inspiration-video iframe{
+  .inspiration-video iframe {
     height: 450px;
   }
-  .card-container{
+  .card-container {
     gap: 65px;
   }
-  .footer-container h2{
+  .footer-container h2 {
     font-size: 20px;
   }
 }
 
 /* Medium device up to 1024px*/
 @media screen and (max-width: 1024px) {
+  .title {
+    font-size: 24px;
+  }
+  .nav-container {
+    padding: 20px 20px;
+  }
+  .btn {
+    font-size: 17px;
+    padding: 13px 18px;
+  }
+  .hero {
+    padding: 30px 20px;
+  }
+  .hero-container h1 {
+    font-size: 30px;
+  }
+  .hero-container p {
+    width: 95%;
+  }
+  .development-content-container {
+    flex-direction: column-reverse;
+    gap: 20px;
+    text-align: center;
+  }
+  .development-content {
+    width: 100%;
+  }
+  .development-image {
+    width: 40%;
+  }
+  .inspiration-content p {
+    font-size: 15px;
+  }
+  .inspiration-video {
+    width: 90%;
+    padding: 20px;
+  }
+  .inspiration-video iframe {
+    height: 380px;
+  }
+  .target-container p {
+    padding: 0 10%;
+  }
+  .card-container {
+    gap: 5%;
+  }
+  .footer-container {
+    padding: 20px 20px;
+  }
+  .footer-container h2 {
+    font-size: 17px;
+  }
+  .footer-container a {
+    margin-left: 8px;
+  }
 }
 
 /* Small device up to 640px*/

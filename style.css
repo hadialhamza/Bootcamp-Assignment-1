@@ -28,6 +28,7 @@
 }
 .btn:hover {
   background: linear-gradient(#ffd447, #ff5100);
+  box-shadow: 4px 4px 10px #0000005b;
 }
 .title {
   font-size: 32px;
@@ -39,7 +40,6 @@
   font-weight: 400;
   color: #0d13218f;
 }
-
 
 /* Body style */
 body {
