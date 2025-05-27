@@ -1,0 +1,39 @@
+/* Large device up to 1280px*/
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 92%;
+  }
+  .btn {
+    font-size: 18px;
+    padding: 15px 20px;
+  }
+  .hero-container h1 {
+    font-size: 40px;
+  }
+  .hero-container p {
+    width: 80%;
+  }
+  .development {
+    width: 80%;
+  }
+  .inspiration-video{
+    width: 85%;
+  }
+  .inspiration-video iframe{
+    height: 450px;
+  }
+  .card-container{
+    gap: 65px;
+  }
+  .footer-container h2{
+    font-size: 20px;
+  }
+}
+
+/* Medium device up to 1024px*/
+@media screen and (max-width: 1024px) {
+}
+
+/* Small device up to 640px*/
+@media screen and (max-width: 640px) {
+}
